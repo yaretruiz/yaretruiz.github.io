@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Enlaces</title>
+<style type="text/css">
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+header,nav,main,footer{
+    width: 80%;
+    background-color: #FBF7FA;
+    margin: 0px auto;
+    color: white;
+    }
+header {
+    background-color: #974540;
+    height: 200px;
+}
+h1 {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+    text-align: center;
+    height: 100px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+main {
+    background-color: #FFE3DA;
+    padding: 30px;
+    height: auto;
+}
+footer {
+    background-color: #B55953;
+    height: 150px;
+    margin-top: 0px;
+}
+footer h5 {
+    width: 30%;
+    height: 100px;
+    margin-left: auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-right: auto;
+    text-align: center;
+}
+nav {
+    height: 60px;
+    background-color: #FC8F69;
+    padding: 20px;
+}
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+a {
+    color: #FFC2AD;
+    }
+    nav ul li a{
+        text-decoration: none;
+        height: 30px;
+        background-color: burlywood;
+        padding: 10px;
+        border-radius: 10px;
+    }
+a:link{
+    color: cornflowerblue;
+    }
+a:visited{
+        color: brown;
+    }
+a:hover{
+       color: darkseagreen; 
+    background-color: cadetblue;
+    }
+a:active{
+        color: deeppink;
+    }
+
+#caja_altura {
+    height: auto;
+}
+.caja_general {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    width: 80%;
+    height: 180px;
+}
+
+.caja_section_impares {
+    background-color: #ED756E;
+    color: #FFC2AD;
+}
+.caja_section_pares {
+    background-color: #AFAFF3;
+    color: #5247B1;
+}
+
+</style>
+</head>
+
+<body>
+<header>
+  <h1>Enlaces en html&nbsp;</h1>
+</header>
+<nav>
+  <ul>
+      <li><a href="#c1">Enlace Externo</a></li>
+      <li><a href="#c2">Enlace Interno</a></li>
+      <li><a href="#c3">Enlace a correo</a></li>
+      <li><a href="#caja_altura">Enlace con imagen</a></li>
+  </ul>
+</nav>
+<main>
+  <section id="c1" class="caja_section_impares caja_general">
+    <h2 style="padding-bottom: 0px">Enlace externo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.  Nisi voluptatem, corporis harum laudantium quasi quis suscipit. <a href="http://www.udlap.mx" title="Universidad de las Américas " target="new">UDLA</a> Distinctio reprehenderit cumque reiciendis odio officia ipsam, blanditiis dolor enim placeat similique expedita sit, eveniet dicta beatae sequi sint dolorem minus, laudantium? Velit, dolores quo est voluptas itaque cumque praesentium rerum placeat facere, maxime. <a href="http://www.buap.mx">Benemerita Universidad Autonoma de Puebla</a></p>
+  </section>
+  <section id="c2" class="caja_section_pares caja_general">
+    <h2>Enlace relativo</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse dolore voluptatem qui. Eum veniam id voluptatum nihil quas quia veritatis sint quis debitis at pariatur, ullam, non officia voluptate neque incidunt repellat soluta commodi. Rerum perferendis, <a href="../html/estilo_texto.html">estilos de texto</a>magnam sequi consequuntur dignissimos quae temporibus tempora ab iste eveniet obcaecati, magni odit nostrum <a href="listas.html" target="_blank">listas</a>.</p>
+  </section>
+  <section id="c3"class="caja_section_impares caja_general">
+    <h2>Enlace a correo electronico</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.Libero reprehenderit quis modi dolore consectetur suscipit voluptatum autem numquam sed magnam dolores a, fugit placeat quaerat eius tempora aliquid nemo doloremque ad nesciunt rem totam molestias exercitationem. Accusantium quia soluta voluptas odit, rerum esse. Praesentium quas quisquam impedit obcaecati eius, iste! <a href="mailto:yaret.ruiz@correo.buap.mx ">Yaret Ruiz Morale</a></p>
+    </section>
+  <section class="caja_section_pares caja_general" id="caja_altura">
+    <h2>Enlace con imagen</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.&nbsp; Libero reprehenderit quis modi dolore consectetur suscipit voluptatum autem numquam sed magnam dolores a, fugit placeat quaerat eius tempora aliquid nemo doloremque ad nesciunt rem totam molestias exercitationem. Accusantium quia soluta voluptas odit, rerum esse. Praesentium quas quisquam impedit obcaecati eius, iste! </p>
+      <a href="http://www.buap.mx" target="new"><img src="../medios/imagenes/descarga.png" alt="logo de la universidad"></a><a href="../pdf/Apuntes del docente - Hojas de estilo CSS  (1).pdf" target="_blank"><img src="../medios/imagenes/images.png" width="225" height="225" alt=""/></a>
+</section>
+</main>
+<footer>
+  <h5>Elaborado por Yaret Elsa Ruiz Morales</h5>
+</footer>
+</body>
+</html>

@@ -1,0 +1,90 @@
+/* CSS Document */
+*{
+margin: 0;
+padding:0;
+box-sizing:border-box;
+}
+body{
+    color:white;
+}
+header,nav,main,footer{
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    height: 150px;
+    background-color: #D67371;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    
+}
+nav{
+    height: 50px;
+    background-color: #6A638C;
+}
+main{
+    height: auto;
+    background-color: #F8CDE0;
+    padding: 50px;
+}
+footer{
+    height: 100px;
+    background-color: #6A638C;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+section{
+    width: 85%;
+    height: auto;
+    margin:30px auto;
+    padding: 40px;
+    background-color: #D67371;
+    border-radius: 10px;
+    
+}#img_1 {
+    width: 25%;
+    margin: 30px;
+    height: auto;
+    border-left: 10px solid #F8CDE0;
+    border-right: 5px solid #F8CDE0;
+    border-bottom: 20px solid #F8CDE0;
+    border-top: 5px solid #F8CDE0;
+}
+.imagen_1 {
+    width: 25%;
+    padding: 10px;
+    height: 25%;
+}
+#filter_gray {
+    filter: grayscale(100%);
+}
+#filter_blur {
+    filter: blur(5px);
+}
+#filter_brillo {
+    filter: brightness(100%);
+}
+header h1 {
+    width: 50%;
+    margin: 0 auto;
+    height: 60px;
+    text-align: center;
+}
+footer h6 {
+    height: 50px;
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+#filter_contraste {
+    filter: contrast(100%);
+}
+#filter_opacidad {
+    filter: opacity(10%);
+}
+#filter_saturacion {
+    filter: saturate(100%);
+}
+#filter_sepia {
+    filter: sepia(100%);
+}

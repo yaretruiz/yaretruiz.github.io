@@ -1,0 +1,260 @@
+@charset "utf-8";
+@import url("../webfonts/Cinzel_Black/stylesheet.css");
+@import url("../webfonts/Roboto_Light/stylesheet.css");
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+/* CSS Document */
+
+header{
+    background-color: #D67371;
+    color: #F9E1D9;
+    height: 150px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}header, nav, main, footer {
+    width: 100%;
+    color: #FFC2AD;
+}
+main {
+    background-color: #FBD9D9;
+    padding: 50px;
+    height: auto;
+}
+main section {
+    background-color: #D86D6B;
+    margin-top: 30px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+main section h2 {
+    color: #683635;
+    font-size: 24px;
+    text-align: left;
+}
+footer {
+    height: 100px;
+    background-color: #7E403F;
+}
+footer h6 {
+    height: 50px;
+    text-align: center;
+    margin: 0 auto;
+    width: 50%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+nav ul {
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+ul li a {
+    text-decoration: none;
+    padding: 10px;
+    height: auto;
+}
+ul li a:visited {
+    color: #D67371;
+}
+ul li a:link {
+    color: #7E403F;
+}
+ul li a:hover {
+    color: #6A638C;
+    background-color: #D67371;
+}
+
+
+
+
+nav ul li {
+    list-style-type: none;
+    width: 120px;
+    background-color: #FFC2AD;
+    color: #7E403F;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    height: auto;
+}
+#form1 {
+    width: 50%;
+}
+#form2 {
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+    background-color: #4B2827;
+    -webkit-box-shadow: 2px 2px 20px;
+    box-shadow: 2px 2px 20px;
+}
+
+#form1 label {
+    font-weight: bold;
+    padding: 20px 30px;
+    font-size: 14px;
+}
+#form1 table {
+    padding: 20px;
+}
+#form1 #submit {
+    margin-top: 20px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+main section p {
+    padding: 20px;
+}
+
+
+
+#form1 p {
+    padding: 20px;
+}
+
+
+#form1 h3 {
+    font-size: 36px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
+nav {
+    height: 70px;
+    background-color: #7E403F;
+}
+
+h1 {
+    padding: 20px;
+    font-size: 36px;
+    width: 1024px;
+    height: 100px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.size_video {
+    width: 30%;
+    height: auto;
+}
+.size_video_youtube {
+    width: 50%;
+    height: 420px;
+}
+
+input[type=text], input[type=password]{
+    width: 30%;
+    padding: 5px;
+    margin: 8px 0;
+    border: 3px solid #FFCBBA;
+    border-radius: 10px;
+    color: #D67371;
+    }
+input[type=submit]{
+    width: 10%;
+    padding: 5px;
+    border-radius: 10px;
+    margin-left: 20px;
+    background-color: #6F3A39;
+    color: #FFC2AD;
+    cursor: pointer;
+}
+input[type=text]:focus{
+    background-color:#FDE7E0;
+    border: 2px solid #FF8784;
+
+}
+input[type=submit]:hover{
+    background-color: #FFC2AD;
+    color: #924E4C;
+}
+textarea{
+    width: 50%;
+    height: 100px;
+    padding: 12px 20px;
+    color: #D67371;
+    border-radius: 10px;
+    border:2px solid #FFC2AD;
+    resize: none;
+}
+select{
+    width: 30%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #F1F1F1;
+}
+.fuente_local {
+    font-family: cooper-black-std;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+}
+.parrafo_flocal {
+    font-family: advent-pro;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+.fuente_file {
+    font-family: "Cinzel Black";
+    font-size: 36px;
+}
+.parrafo_file {
+    font-family: "Roboto Light";
+    font-size: 18px;
+}
+.fuente_repositorio {
+    font-family: 'Gloria Hallelujah', cursive;
+}
+.parrafo_repositorio {
+ font-family: 'Space Mono';
+}
+.fuente_importada {
+    font-family: 'Concert One', cursive;
+}
+.parrafo_importado {
+    font-family: 'Comfortaa';
+}
+.fuente_pincipal {
+    font-family: "Cinzel Black";
+    text-shadow: -7px 2px 3px #B16D56;
+    font-size: 72px;
+}
+.animate__delay-5s {
+}
+.animate__delay-2s {
+}
+.animate__fast {
+}
+.animate__delay-3s {
+}
+.animate__slower {
+}
+.animate__repeat-3 {
+}
+.animate__infinite {
+}
